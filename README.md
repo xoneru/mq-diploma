@@ -1,1 +1,1 @@
-# teach
+# mq-diplom
