@@ -97,7 +97,7 @@ body {
  margin: 0;
  -webkit-appearance: none;
  -moz-appearance: none;
- background-image: url(../svg/form-arrows.svg);
+ background-image: url(svg/form-arrows.svg);
  background-size: 3%  ;
  background-repeat: no-repeat;
  background-position: right 5px  center;
@@ -166,7 +166,7 @@ text-align: start;
 
 .header {
   padding: 28px 248px 124px;
-  background-image: url(/images/banner-bg.jpg);
+  background-image: url(images/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
