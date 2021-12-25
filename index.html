@@ -3,16 +3,52 @@
     <head>
         <title>Блог Ноеми</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-        <meta http-equiv="X-UA-Compatible content="ie=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link href="css/style.css" rel="stylesheet">
     </head>
+    <body>
+      <section class="p-feedback">
+        <div class="p-feedback-container">   
+         <h2 class="p-feedback-top">ваш фидбэк</h2>
+      
+         <form class="p-feedback-form">
+         <div class="p-feedback-form-select">
+           <label class="p-feedback-select-group">
+             <span class="p-feedback-select-label">Как часто вы заходите на наш сайт?</span>
+             <select class="p-feedback-select">
+               <option value="almost_every_day" selected>Почти каждый день</option>
+               <option value="Every_few_days">Раз в несколько дней</option>
+               <option value="Every_few_weeks">Раз в несколько недель</option>
+               <option value="Several_times_a_year">Несколько раз в год</option>
+             </select>
+           </label>
+         </div>
+         <div class="p-feedback-form-radio">
+             <label class="p-feedback-radio-group"> <span class="p-feedback-radio-label">Вы подписаны на  e-mail рассылку?</span>
+             <input type="radio" class="radio" name="p-feedback-radio-group"> 
+             <span class="p-feedback-radio-group-text">да</span>
+            </label>
+            <label class="p-feedback-radio-group"> 
+            <input type="radio"  class="radio" name="p-feedback-radio-group">
+            <span class="p-feedback-radio-group-text"> нет</span>
+            </label> 
+         </div>
+         <div class ="p-feedback-form-opinion">
+             <label class="p-feedback-group-opinion"><span>Расскажите какой контент вы хотели бы видеть на нашем сайте?</span>
+             <input class="p-feedback-field-opinion" placeholder="Может больше рецептов?" alt="поле для ввода рецептов">
+             </label>
+          <button class="p-feedback-button" alt="кнопка отправить">отправить</button>
+          </div>
+             <button class="popup-close" type="button"><span class="hidden">Закрыть окно</span> </button>
+             </form>
+      </div>
+         </section>
 <header class="header">
   <div class="wrapper">
   <div class="header-wrapper">
       <div class="menu">
         <a class="logo" href="#">
-          <img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" class="header-logo" alt="logo-noemi" width="170"> </a>
+          <img src="svg\noemi-logo.svg" class="header-logo" alt="logo-noemi" width="170"> </a>
         <nav class="menu">
           <ul class="menu-list">
             <li class="menu-list-item">
@@ -48,7 +84,7 @@
         <section>
           <article class="news">
             <a class="news-img" href="#0">
-              <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" alt="картинка человек идёт по пляжу" width="380">
+              <img class="news-img" src="images\post-1.jpg" alt="картинка человек идёт по пляжу" width="380">
             </a>
   
             <div class="news-text">
@@ -78,7 +114,7 @@
   
           <article class="news">
             <a class="news-img" href="#0">
-              <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="йога на пляже" width="380">
+              <img class="news-img" src="images\post-2.jpg" alt="йога на пляже" width="380">
             </a>
   
             <div class="news-text">
@@ -107,9 +143,9 @@
             </div>
           </article>
   
-          　<article class="news">
+          <article class="news">
             <a class="news-img" href="#0">
-              <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="девушка на фестивале" width="380">
+              <img class="news-img" src="images\post-3.jpg" alt="девушка на фестивале" width="380">
             </a>
   
             <div class="news-text">
@@ -137,7 +173,7 @@
   
           <article class="news">
             <a class="news-img" href="#0">
-              <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="тарелки с едой" width="380">
+              <img class="news-img" src="images\post-4.jpg" alt="тарелки с едой" width="380">
             </a>
   
             <div class="news-text">
@@ -165,9 +201,9 @@
             </div>
           </article>
   
-          　<article class="news">
+          <article class="news">
             <a class="news-img" href="#0">
-              <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="подушка" width="380">
+              <img class="news-img" src="images\post-5.jpg" alt="подушка" width="380">
             </a>
   
             <div class="news-text">
@@ -197,66 +233,6 @@
               </div>
             </div>
           </article>
-  
-          <article class="news">
-            <a class="news-img" href="#0">
-              <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" alt="подушка" width="380">
-            </a>
-  
-            <div class="news-text">
-              <ul class="news-tag">
-                <li class="news-tag-item">
-                  <a class="news-tag-link" href="#0">travel</a>
-                </li>
-                <li class="news-tag-item">
-                  <a class="news-tag-link" href="#0">lifestyle</a>
-                </li>
-              </ul>
-  
-              <div class="news-description">
-                <h2 class="news-name">
-                  <a class="news-link" href="#0">Как первый раз отправиться в горы?</a>
-                </h2>
-                <div class="news-text-meta">
-                  <time class="date">10 июня 2019</time>
-                  <a class="author"> Неизвестный автор</a>
-                </div>
-                <div class="about">
-                  <p>Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.</p>
-                </div>
-              </div>
-            </div>
-          </article>
-  
-          <article class="news">
-            <a class="news-img" href="#0">
-              <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="тарелки с едой" width="380">
-            </a>
-  
-            <div class="news-text">
-              <ul class="news-tag">
-                <li class="news-tag-item">
-                  <a class="news-tag-link" href="#0">lifestyle</a>
-                </li>
-                <li class="news-tag-item">
-                  <a class="news-tag-link" href="#0">food</a>
-                </li>
-              </ul>
-  
-              <div class="news-description">
-                <h2 class="news-name">
-                  <a class="news-link" href="#0">Наукоёмкий подход к кулинарии</a>
-                </h2>
-                <div class="news-text-meta">
-                  <time class="date">10 июня 2019</time>
-                  <a class="author"> Неизвестный автор</a>
-                </div>
-                <div class="about">
-                  <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
-                </div>
-              </div>
-            </div>
-          </article>
         </section>
       </main>
   
@@ -265,7 +241,7 @@
           <h3 class="top" class="new-top">Новые посты</h3>
           <article class="new">
             <a class="new-img" href="#0">
-              <img class="new-img" src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg" alt="картинка человек идёт по пляжу" width="70">
+              <img class="new-img" src="images\last-post-1.jpg" alt="картинка человек идёт по пляжу" width="70">
             </a>
   
             <div class="new-text">
@@ -279,7 +255,7 @@
   
           <article class="new">
             <a class="new-img" href="#0">
-              <img class="new-img" src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg" alt="йога на пляже" width="70">
+              <img class="new-img" src="images\last-post-2.jpg" alt="йога на пляже" width="70">
             </a>
   
             <div class="new-text">
@@ -293,7 +269,7 @@
   
           <article class="new">
             <a class="new-img" href="#0">
-              <img class="new-img" src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg" alt="кресло" width="70">
+              <img class="new-img" src="images\last-post-3.jpg" alt="кресло" width="70">
             </a>
   
             <div class="new-text">
@@ -307,7 +283,7 @@
   
           <article class="new">
             <a class="new-img" href="#0">
-              <img class="new-img" src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg" alt="тарелки с едой" width="70">
+              <img class="new-img" src="images\post-4.jpg" alt="тарелки с едой" width="70">
             </a>
   
             <div class="new-text">
@@ -320,7 +296,7 @@
   
           <article class="new">
             <a class="new-img" href="#0">
-              <img class="new-img" src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg" alt="три девушки с длинными волосами" width="70">
+              <img class="new-img" src="images\last-post-5.jpg" alt="три девушки с длинными волосами" width="70">
             </a>
   
             <div class="new-text">
@@ -448,4 +424,5 @@
       </a>
     </div>
   </footer>
-  </html>
+ </body>
+ </html>

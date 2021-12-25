@@ -77,9 +77,6 @@ body {
   background-color: #ffffff;
  padding: 60px 20px 55px 25px; 
 }
-.p-feedback-form{
-
-}
 .p-feedback-select{
  border: none;
  color: grey;
@@ -100,7 +97,6 @@ body {
 .p-feedback-radio-group-text {
   margin-left: 8px;
 }
-
 .radio::before {
   content: "";
   display: inline-block;
