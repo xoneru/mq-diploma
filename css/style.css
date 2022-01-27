@@ -48,7 +48,7 @@
     }
   }
   ._hidden {
-    display:;
+    display: none;
   }
   
   .p-feedback {
@@ -99,12 +99,7 @@
     background-color: #ffffff;
     padding: 60px 20px 55px 25px; 
   }
-  .p-feedback-form-select {
-    height: 100px;
-  }
-  .p-feedback-select-label {
-    margin-bottom: 20px;
-  }
+ 
   .p-feedback-select {
    
    height: 100px;
@@ -114,8 +109,8 @@
    display: block;
    font-family: inherit;
    width: 330px;
-   height: 30px;
-   margin: 0;
+   height: 40px;
+   margin-top: 10px;
    -webkit-appearance: none;
    -moz-appearance: none;
    background-image: url(../svg/form-arrows.svg);
@@ -126,7 +121,7 @@
   }
   .p-feedback-radio-group-text {
     margin-right: 2px;
-    margin-left: 25px;
+    margin-left: 2px;
   }
   
   .radio {
@@ -138,12 +133,29 @@
   
   .radio:not(:checked) + .p-feedback-radio-group-text:before {
     content: "";
-    background-image: url(../svg/form-empty-circle.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../svg/form-empty-circle.svg");
+    background-repeat: no-repeat;
+    background-position: center  center;
+    background-size: 25px;
   }
+  
   
   .radio:checked + .p-feedback-radio-group-text:before {
     content: "";
-    background-image: url(../svg/form-circle.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../svg/form-circle.svg");
+    background-repeat: no-repeat;
+    background-position: center  center;
+    background-size: 25px;
   }
   
   .p-feedback-form-radio {
@@ -156,13 +168,21 @@
   
   .p-feedback-field-opinion {
   height: 100px;
+  margin-top: 20px;
+  margin-bottom: 25px;
   width: 340px;
   border: none;
   display: flex;
   background-color: #f3f6f4;
   text-align: start;
   }
-  
+  .opiniop-field {
+    border: none;
+    margin-top: 10px;
+    background-color: #f3f6f4;
+    width: 340px;
+    height: 150px;
+  }
   .p-feedback-button{
     margin-top: 18px;
     height: 48px;
